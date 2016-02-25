@@ -1,2 +1,5 @@
-# react-redux-tetris
-A Tetris game using React and Redux
+# React Redux Tetris
+
+Tetris game
+
+(Demo)[http://geovannyjs.github.io/react-redux-tetris/]

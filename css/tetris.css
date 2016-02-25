@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  background: #d8e0e0;
+}
+
+#tetris-main {
+  width: 500px;
+  margin: 0px auto;
+}
+
+#tetris-blockboard {
+  float: left;
+  background: #f2ffef;
+}
+
+#tetris-blockboard .line-hidden {
+  display: none;
+}
+
+#tetris-blockboard .block {
+  float: left;
+  width: 17px;
+  height: 17px;
+  margin: 0.5px;
+  box-sizing: border-box;
+  border: 1px solid #b6bab8;
+  border-radius: 3px;
+}
+
+#tetris-blockboard-container {
+  position: relative;
+}
+
+#tetris-blockboard .black {
+  background: #474747;
+}
+
+#tetris-blockboard .blue {
+  background: #4152d0;
+}
+
+#tetris-blockboard .green {
+  background: #26b300;
+}
+
+#tetris-blockboard .red {
+  background: #ff0000;
+}
+
+#tetris-blockboard .yellow {
+  background: #fff600;
+}
+
+#tetris-blockboard .cyan {
+  background: #00f6ff;
+}
+
+#tetris-blockboard .orange {
+  background: #ffa02f;
+}
+
+#tetris-blockboard .pink {
+  background: #ff58fd;
+}
+
+#tetris-blockboard .purple {
+  background: #9524ff;
+}
+
+#tetris-game-over {
+  position: relative;
+  top: 100px;
+  left: -220px;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f00;
+  z-index: 999;
+}
+
+#tetris-point-panel {
+  float: left;
+  width: 120px;
+  padding: 5px;
+}
+
+#tetris-howto {
+  float: left;
+  width: 120px;
+  padding: 20px 5px;
+}
+
+#tetris-control-panel {
+  float: left;
+  width: 120px;
+  padding: 5px;
+}
+
+#tetris-footer {
+  float: left;
+  width: 100%;
+}
