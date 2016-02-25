@@ -2,4 +2,4 @@
 
 Tetris game
 
-(Demo)[http://geovannyjs.github.io/react-redux-tetris/]
+http://geovannyjs.github.io/react-redux-tetris
